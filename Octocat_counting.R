@@ -1,5 +1,5 @@
 octocat <- readLines("octocat.txt")
 
-trim(octocat) |>
+trimws(octocat) |>
   nchar() |>
   sum()
